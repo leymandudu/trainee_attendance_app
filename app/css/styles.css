@@ -67,8 +67,10 @@ nav li a {
   transition: background-color 0.3s ease-in-out;
 }
 
-nav li a:hover {
-  background-color: #e9ecef; /* Light gray */
+nav li a:hover,
+nav li a:active {
+  background-color: #000102; /* Light gray */
+  color: white;
 }
 
 /* Hero Section */
@@ -150,7 +152,8 @@ form select {
 }
 
 form input[type="submit"] {
-  background-color: #0056b3; /* Light blue-gray */
+  width: 100%; /* Set the button's width to match the form's width */
+  background-color: #050505; /* Light blue-gray */
   color: #fff; /* White */
   padding: 10px 20px;
   border: none;
@@ -160,7 +163,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #003366; /* Dark blue */
+  background-color: #707070; /* Dark blue */
 }
 
 /* Tables */
