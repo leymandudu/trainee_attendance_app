@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $stmt = $pdo->prepare("UPDATE trainees SET firstname = :firstname, lastname = :lastname, email = :email, phone = :phone, city = :city, state = :state, country = :country, education_level = :education_level, it_experience = :it_experience, program_enrolled = :program_enrolled WHERE id = :id");
     $stmt->execute(['firstname' => $firstname, 'lastname' => $lastname, 'email' => $email, 'phone' => $phone, 'city' => $city, 'state' => $state, 'country' => $country, 'education_level' => $education_level, 'it_experience' => $it_experience, 'program_enrolled' => $program_enrolled, 'id' => $id]);
-    header('Location: list_trainees.php');
+    header('Location: list_trainee.php');
 }
 ?>
 
