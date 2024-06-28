@@ -43,7 +43,8 @@ This web application is designed to manage trainee information for a company tha
 
 3. **Run the Application**:
    - Ensure your development environment supports PHP.
-   - Start a local server or use XAMPP/WAMP/LAMP.
+   - CD to the app directory `e.g. /trainee_attendance_app/app`
+   - Run the following command to launch the app php -S `localhost:8000`
    - Access the application through the browser (`http://localhost/path/to/index.php`).
 
 ## Usage
